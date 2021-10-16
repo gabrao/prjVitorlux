@@ -1,0 +1,139 @@
+body{
+    background: #caecffbd;
+    margin: 0 10%;
+}
+
+footer{
+    margin: 10px;
+    text-align: center;
+}
+
+#logo{
+    width: 100%;
+    height: 80px;
+    background: #94a4ff;
+}
+
+
+#menu{
+    width: 100%;
+    height: auto;
+    background: silver;
+    padding-top: 1px;
+}
+
+#menu ul li{
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+a{
+    color: orangered;
+}
+
+a:hover{
+    background: #5ed4f7;
+}
+
+.home_banner{
+    text-align: left;
+    color: darkslategrey;
+    font-family: serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#banner{
+    position: relative;
+    
+}
+
+#imagens img{
+    width: 100%;
+    height: 400px;
+}
+
+#btn_dir, #btn_esq{
+    width: 57px;
+    height: 122px;
+    position: absolute;
+}
+
+#btn_esq{
+    background: url("../imagens/seta_esq.png");
+    left: 3px;
+    top: calc(50% - 66px);
+}
+
+#btn_dir{
+    background: url("../imagens/seta_dir.png");
+    left: calc(100% - 61px);
+    top: calc(50% - 66px);
+}
+
+
+#sobre_nos{
+    text-align: center;
+    border: dashed;
+    border-color: cadetblue;
+    font-size: 25px;
+    margin: 100px 100px;
+}
+#sobre_nos h2{
+    text-align: center;
+    margin: 10px;
+}
+
+#sobre_nos p{
+    text-align: justify;
+    margin: 15px;
+    
+}
+
+#produtos {
+    margin-bottom: 90px;
+}
+
+#produtos ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+}
+
+#produtos li{
+    color: chocolate;
+    width: auto;
+    height: auto;
+    margin: 15px 25px 15px 25px;
+    border-left: solid green;
+    padding: 20px 0 20px 20px;
+}
+
+#produtos img{
+    width: 200px;
+    height: 180px;
+    align-content: center;
+}
+
+#produtos h2{
+    text-align: center;
+}
+
+#produtos, #sobre_nos, #onde_comprar div{
+    border: dashed #4bd34b;
+}
+
+#onde_comprar h2{
+    text-align: center;
+}
+
+#onde_comprar img{
+    width: 70%;
+    height: 70vh;
+}
+
+#produto1, #produto2, #produto3 p{
+    text-align: justify;
+}
